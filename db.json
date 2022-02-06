@@ -1,0 +1,124 @@
+{
+  "movies": [
+    {
+      "title": "down",
+      "rating": "5",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYWMwMzQxZjQtODM1YS00YmFiLTk1YjQtNzNiYWY1MDE4NTdiXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SX300.jpg",
+      "year": "2001",
+      "genre": "Drama, History, War",
+      "director": "Ridley Scott",
+      "plot": "160 elite U.S. soldiers drop into Somalia to capture two top lieutenants of a renegade warlord and find themselves in a desperate battle with a large force of heavily-armed Somalis.",
+      "actors": "Josh Hartnett, Ewan McGregor, Tom Sizemore, Eric Bana",
+      "id": 2
+    },
+    {
+      "title": "tenet",
+      "rating": "5",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYzg0NGM2NjAtNmIxOC00MDJmLTg5ZmYtYzM0MTE4NWE2NzlhXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_SX300.jpg",
+      "year": "2020",
+      "genre": "Action, Sci-Fi",
+      "director": "Christopher Nolan",
+      "plot": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+      "actors": "Elizabeth Debicki, Robert Pattinson, John David Washington, Aaron Taylor-Johnson",
+      "id": 3
+    },
+    {
+      "title": "resident evil",
+      "rating": "5",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZmI1ZGRhNDYtOGVjZC00MmUyLThlNTktMTQyZGE3MzE1ZTdlXkEyXkFqcGdeQXVyNDE5MTU2MDE@._V1_SX300.jpg",
+      "year": "2002",
+      "genre": "Action, Horror, Sci-Fi",
+      "director": "Paul W.S. Anderson",
+      "plot": "A special military unit fights a powerful, out-of-control supercomputer and hundreds of scientists who have mutated into flesh-eating creatures after a laboratory accident.",
+      "actors": "Ryan McCluskey, Oscar Pearce, Indra Ové, Anna Bolt",
+      "id": 4
+    },
+    {
+      "title": "Gravity",
+      "rating": "5",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjE5MzYwMzYxMF5BMl5BanBnXkFtZTcwOTk4MTk0OQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "year": "2013",
+      "genre": "Sci-Fi",
+      "director": "Alfonso Cuarón",
+      "plot": "Dr. Ryan Stone (Sandra Bullock) is a brilliant medical engineer on her first shuttle mission, with veteran astronaut Matt Kowalski (George Clooney) in command of his last flight before retiring. But on a seemingly routine spacewalk, disaster strikes. The shuttle is destroyed, leaving Stone and Kowalsky completely alone - tethered to nothing but each other and spiraling out into the blackness",
+      "actors": "Sandra Bullock, George Clooney, Ed Harris",
+      "id": 5
+    },
+    {
+      "title": "Goodfellas",
+      "rating": "5",
+      "poster": "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "year": "1990",
+      "genre": "Drama",
+      "director": "Martin Scorsese",
+      "plot": "Henry Hill might be a small time gangster, who may have taken part in a robbery with Jimmy Conway and Tommy De Vito, two other gangsters who might have set their sights a bit higher. His two partners could kill off everyone else involved in the robbery, and slowly start to think about climbing up through the hierarchy of the Mob. Henry, however, might be badly affected by his partners' success, but will he consider stooping low enough to bring about the downfall of Jimmy and Tommy?",
+      "actors": "Robert Deniro, Joe Pesci, Ray Liotta, Lorraine Bracco, Paul Sorvino",
+      "id": 6
+    },
+    {
+      "title": "White Chicks",
+      "rating": "5",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTY3OTg2OTM3OV5BMl5BanBnXkFtZTYwNzY5OTA3._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "year": "2004",
+      "genre": "Comedy, Action",
+      "director": "Kennan Ivory Wayans",
+      "plot": "After an unsuccessful mission, FBI agents Kevin and Marcus Copeland fall into disgrace at the agency. They decide to work undercover on an abduction case disguised as Brittany and Tiffany Wilson, the vain, spoiled white daughters of a tycoon.",
+      "actors": "Shawn Wayans, Marlon Wayans, Busy Phillips, Terry Crews",
+      "id": 7
+    },
+    {
+      "title": "Butch Cassidy and the Sundance Kid",
+      "rating": "5",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTkyMTM2NDk5Nl5BMl5BanBnXkFtZTgwNzY1NzEyMDE@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "year": "1969",
+      "genre": "Western, Action",
+      "director": "George Roy Hill",
+      "plot": "Butch and Sundance are the two leaders of the Hole-in-the-Wall Gang. Butch is all ideas, Sundance is all action and skill. The west is becoming civilized, and when Butch and Sundance rob a train once too often, a special posse begins trailing them no matter where they run. Over rocks, through towns, across rivers, the group is always just behind them.",
+      "actors": "Paul Newman, Robert Redford, Katherine Ross",
+      "id": 8
+    },
+    {
+      "title": "Robocop",
+      "rating": "5",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZWVlYzU2ZjQtZmNkMi00OTc3LTkwZmYtZDVjNmY4OWFmZGJlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "year": "1987",
+      "genre": "Action, Sci-Fi",
+      "director": "Paul Verhoeven",
+      "plot": "In a violent, near-apocalyptic Detroit, evil corporation Omni Consumer Products wins a contract from the city government to privatize the police force. To test their crime-eradicating cyborgs, the company leads street cop Alex Murphy into an armed confrontation with crime lord Boddicker so they can use his body to support their untested RoboCop prototype. But when RoboCop learns of the company's nefarious plans, he turns on his masters.",
+      "actors": "Peter Weller, Nancy Allen, Kurtwood Smith, Ray Wise, Robert DoQui",
+      "id": 9
+    },
+    {
+      "title": "Hackers",
+      "rating": "5",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNmExMTkyYjItZTg0YS00NWYzLTkwMjItZWJiOWQ2M2ZkYjE4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "year": "1995",
+      "genre": "Sci-Fi, Drama",
+      "director": "Iain Softley",
+      "plot": "A young boy is arrested by the U.S. Secret Service for writing a computer virus and is banned from using a computer until his 18th birthday. Years later, he and his new-found friends discover a plot to unleash a dangerous computer virus, but they must use their computer skills to find the evidence while being pursued by the Secret Service and the evil computer genius behind the virus",
+      "actors": "Angelina Jolie, Johnny Lee Miller, Jesse Bradford, Matthew Lillard, Laurence Mason",
+      "id": 10
+    },
+    {
+      "title": "Fear and Loathing in Las Vegas",
+      "rating": "5",
+      "poster": "https://m.media-amazon.com/images/M/MV5BY2RkY2M2N2QtZGY5ZS00YmVjLThmNTItY2ZkM2JlYmFhZWQyXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "year": "1998",
+      "genre": "Drama, Comedy",
+      "director": "Terry Gilliam",
+      "plot": "An oddball journalist and his psychopathic lawyer travel to Las Vegas for a series of psychedelic escapades.",
+      "actors": "Johnny Depp, Benicio Del Toro, Tobey Maguire",
+      "id": 11
+    },
+    {
+      "title": "Sharknado ",
+      "rating": "5",
+      "poster": "https://m.media-amazon.com/images/M/MV5BODcwZWFiNTEtNDgzMC00ZmE2LWExMzYtNzZhZDgzNDc5NDkyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "year": "2013",
+      "genre": "Sci-Fi, Horror",
+      "director": "Anthony C. Ferrante",
+      "plot": "Nature's deadliest killer takes to the skies in the ultimate gill-ty pleasure as a group of friends try to save the Santa Monica coast from shark-infested tornadoes.",
+      "actors": "Tara Reid, Ian Ziering, John Heard",
+      "id": 12
+    },
+  ]
