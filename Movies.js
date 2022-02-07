@@ -1,3 +1,8 @@
+$(window).on('load', function () {
+    setTimeout(function() {
+        $('#loading').hide()
+    },2000)
+});
 
 $.get("https://api.themoviedb.org/3/configuration?api_key=" + TMDBKey).done(function (data) {
     console.log(data);
