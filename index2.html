@@ -3,11 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 </head>
 <body>
+<div class=" container movieCard row">
+
+</div>
 <div class="filmCard"></div>
 
-<script src="../codeup-web-exercises/js/jquery-2.2.4.js"></script>
-<script src=></script>
+<script src="jquery-2.2.4%20(1).js"></script>
+<script>
+    $.get("https://healthy-statuesque-petalite.glitch.me/movies").done(function (data) {
+        console.log(data)
+
+        for (i = 0; i < data.length; i++) {
+            let filmCard = `<div class="card col-4">
+        <img class="card-img-top" src="${data[i].poster}" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">${data[i].title}</h5>
+                <p class="card-text">${data[i].plot} </p>
+
+            </div>
+    </div>`
+
+            $('.movieCard').append(filmCard);
+        }
+    })
+
+
+</script>
 </body>
 </html>
