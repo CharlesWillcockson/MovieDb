@@ -1,4 +1,4 @@
-const glitchURL = "https://healthy-statuesque-petalite.glitch.me/movies";
+const glitchURL = "https://tartan-quill-libra.glitch.me/movies";
 renderMovies();
 
 function renderMovies() {
@@ -25,24 +25,24 @@ function renderMovies() {
     })
 }
 
-function wantList() {
+// function wantList() {
     $('#wantToWatch').click(function () {
         let movieInput = $('#search').val()
         console.log(movieInput)
         $.get(`https://api.themoviedb.org/3/search/movie?api_key=36bae576330e105013948f7fc0b734c0&language=en-US&query=${movieInput}&page=1&include_adult=false`).done(function (data) {
             console.log(data);
-            //     let newFilmCard = `<div class="card col-3 p-3 m-3 shadow">
-            //     <img class="card-img-top" src="http://image.tmdb.org/t/p/w154${data.results[0].poster_path}" alt="Card image cap">
-            //         <div class="card-body">
-            //             <h5 class="card-title">${data.results[0].title}</h5>
-            //             <p class="card-text">${data.results[0].overview} </p>
-            //             <span class="fa fa-star checked"></span>
-            //             <span class="fa fa-star checked"></span>
-            //             <span class="fa fa-star checked"></span>
-            //             <span class="fa fa-star"></span>
-            //             <span class="fa fa-star"></span>
-            //         </div>
-            // </div>`
+             //        let newFilmCard = `<div class="card col-3 p-3 m-3 shadow">
+             //         <img class="card-img-top" src="http://image.tmdb.org/t/p/w154${data.results[0].poster_path}" alt="Card image cap">
+             //           <div class="card-body">
+             //                <h5 class="card-title">${data.results[0].title}</h5>
+             //               <p class="card-text">${data.results[0].overview} </p>
+             //                <span class="fa fa-star checked"></span>
+             //              <span class="fa fa-star checked"></span>
+             //                <span class="fa fa-star checked"></span>
+             //                <span class="fa fa-star"></span>
+             //               <span class="fa fa-star"></span>
+             //        </div>
+             // </div>`
             let newFilmCard = {
                 title: data.results[0].title,
                 poster: `http://image.tmdb.org/t/p/w154${data.results[0].poster_path}`,
@@ -55,19 +55,19 @@ function wantList() {
                 url: glitchURL,
                 data: newFilmCardJSon,
             })
-            // console.log(newFilmCard)
-            // $('.movieCard').append(newFilmCard);
+            console.log(newFilmCardJSon)
+            $('.movieCard').append(newFilmCard);
 
         })
-        renderMovies();
+        // renderMovies();
     })
-}
+// }
 
 
-$('#watched').click(function (){
-    let movieInput = $('#search').val()
-    console.log(movieInput)
-})
+// $('#watched').click(function (){
+//     let movieInput = $('#search').val()
+//     console.log(movieInput)
+// })
 
 
 
