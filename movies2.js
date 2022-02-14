@@ -1,4 +1,5 @@
 const glitchURL = "https://tartan-quill-libra.glitch.me/movies";
+
 renderMovies();
 
 function renderMovies() {
@@ -6,6 +7,7 @@ function renderMovies() {
         console.log(data)
 
         for (i = 0; i < data.length; i++) {
+            console.log(data.results[0].original_title)
             let filmCard = `<div class="card col-3 p-3 m-3 shadow">
         <img class="card-img-top" src="${data[i].poster}" alt="Card image cap">
             <div class="card-body">
@@ -43,20 +45,19 @@ function renderMovies() {
              //               <span class="fa fa-star"></span>
              //        </div>
              // </div>`
-            let newFilmCard = {
+            const newFilmCard = {
                 title: data.results[0].title,
                 poster: `http://image.tmdb.org/t/p/w154${data.results[0].poster_path}`,
                 plot: data.results[0].overview,
-                // id: data.length + 1,
             }
-            let newFilmCardJSon = JSON.stringify(newFilmCard)
-            $.ajax({
-                type: "POST",
-                url: glitchURL,
-                data: newFilmCardJSon,
-            })
-            console.log(newFilmCardJSon)
-            $('.movieCard').append(newFilmCard);
+            const options = {
+                method: 'POST',
+                    headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(newFilmCard),
+            }
+            fetch(glitchURL, options)
 
         })
         // renderMovies();
@@ -88,3 +89,4 @@ function renderMovies() {
 //         id
 //     }
 // }
+
